@@ -1,0 +1,322 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+ }
+
+/* Containers */
+.container-wrapper--black {
+    background-color: black;
+    color: white;
+}
+
+
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/computer.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;}
+
+.callout-container-b {
+    height: 100vh;
+
+    background: url('../images/apple.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;}
+
+.callout-container-c {
+
+    height: 100vh;
+
+    background: url('../images/keyboard.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    background-color: rgba(26, 10, 10, .25);
+    border: 0;
+    text-transform: uppercase;}
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: #1ebba3;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+
+.navbar-dark .navbar-nav .nav-link:hover{color:#1ebba3;}
+
+a#link.nav-link{color:#1ebba3;}
+
+a.CVlink{text-decoration: none;color:#1ebba3;}
+
+a.CVlink:hover {
+    background-color:#1ebba3;
+   
+    color: #fff;
+}
+.fixed-bottom{border-color: transparent;}
+.navbar-btn {
+    border:2px solid #1ebba3;
+    border-radius: 16px;
+    width: 150px;
+    background-color:transparent;
+    color: #1ebba3;
+}
+
+.navbar-btn:hover {
+    background-color:#1ebba3;
+    border:2px solid #fff;
+    color: #fff;
+}
+
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Buttons */
+
+
+.btn {
+  border:2px solid #1ebba3;
+  border-radius: 22px;
+  width: 150px;
+  background-color:transparent;
+  color: #1ebba3;
+}
+
+ .btn--red:hover,
+ .btn--red:active,
+ .btn--red:focus,
+ .btn--red:active:focus {
+  background-color:#fff;
+  border:2px solid #1ebba3;
+  color: #1ebba3;
+
+}
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+
+}.feature .btn-c:hover{
+    background-color:#1ebba3;
+    border:2px solid ;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#fff;
+
+}.feature .btn-c{
+    background-color:transparent;
+    border:2px solid #1ebba3;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1ebba3;}
+
+
+.feature .btn:hover{
+    background-color:transparent;
+    border:2px solid #1ebba3;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#1ebba3;
+}
+
+.feature .btn{
+    background-color:transparent;
+    border:2px solid #fff;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;}
+
+
+/*-- ICONS---*/
+.fab,.fas{padding-left: 10px; 
+    font-size:4em;
+    background-color:transparent;
+    color: white;}
+
+.fa-bootstrap{padding-left: 10px; 
+    font-size:2em;
+    background-color:transparent;
+    color: white;}
+    
+.fab:hover{color:#1ebba3;} 
+.fas:hover{color:#1ebba3;}     
+    /*-----------Modal----------*/
+
+
+.modal-content{
+  background: #36454f;
+color:#fff;}
