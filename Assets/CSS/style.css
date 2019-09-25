@@ -18,7 +18,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,17 +26,17 @@ body {
     position: relative;}
 
 .callout-container-b {
-    height: 100vh;
+    height: 150vh;
 
     background: url('../images/apple.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
-    justify-content: center;
+    
 
     position: relative;}
 
@@ -49,7 +49,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,7 @@ a.CVlink{text-decoration: none;color:#1ebba3;}
 
 a.CVlink:hover {
     background-color:#1ebba3;
-   
+
     color: #fff;
 }
 .fixed-bottom{border-color: transparent;}
@@ -221,6 +221,23 @@ a.CVlink:hover {
   width: 150px;
   background-color:transparent;
   color: #1ebba3;
+}
+.btn-a {margin: 10px;
+  border:2px solid #1ebba3;
+  border-radius: 22px;
+  width: 50px;
+  background-color:transparent;
+  color: #1ebba3;
+}
+
+.btn-a:hover{
+    background-color:#1ebba3;
+    border:2px solid #fff;
+    border-radius: 15px;
+    min-width: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#fff;
 }
 
  .btn--red:hover,
@@ -302,21 +319,85 @@ a.CVlink:hover {
 
 
 /*-- ICONS---*/
-.fab,.fas{padding-left: 10px; 
+.fab,.fas{padding-left: 10px;
     font-size:4em;
     background-color:transparent;
     color: white;}
 
-.fa-bootstrap{padding-left: 10px; 
+.fa-bootstrap{padding-left: 10px;
     font-size:2em;
     background-color:transparent;
     color: white;}
-    
-.fab:hover{color:#1ebba3;} 
-.fas:hover{color:#1ebba3;}     
+
+.fab:hover{color:#1ebba3;}
+.fas:hover{color:#1ebba3;}
     /*-----------Modal----------*/
 
 
 .modal-content{
   background: #36454f;
 color:#fff;}
+
+/* -----cards---*/
+.card
+{
+    background:#b5136c;
+    border-radius: 2.5%;
+    width: 18em;
+    height: 22em;
+    top: 10%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.6;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+
+}
+.card:hover {
+    opacity: 1;
+}
+
+
+/*-----------MEDIA QUERIES----------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .scroll-work {
+        width: 80%;
+    }
+  }
+
+@media (max-width: 992px) {
+    #contact, #skills{
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) {
+    .callout-container  {
+        background-image: url('../images/computer.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .callout-container-b{
+        background-image: url('../images/apple.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    } 
+    .callout-container-c{
+        background-image: url('../images/keyboard.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;}
+
+   
+}
+
+
+
+
