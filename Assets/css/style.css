@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+   
     font-family: 'Titillium Web', sans-serif;}
 
 /* Containers */
@@ -9,9 +9,28 @@ body{
     color: white;}
 
 .callout-container {
-    height: 100vh;
+    height: 110vh;
+    
+
 
     background: url('../images/computer.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    position: relative;}
+
+.callout-container-b {
+    height: 200vh;
+    
+
+    background: url('../images/apple.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,24 +42,9 @@ body{
 
     position: relative;}
 
-.callout-container-b {
-    height: 150vh;
-
-    background: url('../images/apple.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-
-
-    position: relative;}
-
 .callout-container-c {
 
-    height: 100vh;
+    height: 110vh;
 
     background: url('../images/keyboard.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -69,7 +73,7 @@ body{
 
 /* Jumbotron */
 
-.jumbotron {
+.jumbotron {width: 100%;
     background-color: transparent;}
 
 .jumbotron h1 {
@@ -297,7 +301,7 @@ a.CVlink:hover {
     font-size:2em;
     background-color:transparent;
     color: white;}
-
+.fa-university,.fa-code-branch{color: #000;}
 .fa-bootstrap{
     padding-left: 10px;
     font-size:2em;
@@ -306,6 +310,7 @@ a.CVlink:hover {
 
 .fab:hover{color:#1ebba3;}
 .fas:hover{color:#1ebba3;}
+
     /*-----------Modal----------*/
 
 
@@ -315,17 +320,15 @@ color:#fff;}
 
 /* -----cards---*/
 
-.card{text-align: center;
+.card{
+    text-align: center;
     background:#b5136c;
     border-radius:5%;
-    
-    height: 18em;
+    height: 20em;
     top: 10%;
-    width:30%;
-    
+    width: 30%;
     align-items:center;
     z-index: 2;
-    display: block;
     opacity: 0.8;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -337,5 +340,13 @@ color:#fff;}
 
 
 /*-----------MEDIA QUERIES----------*/
-@media (max-width: 767.98px) {.card{width: 80%;}}
 
+@media (max-width: 767.98px) {.card{width: 80%;height: 80%;}
+.callout-container{}
+}
+
+/*---Hidden scrollbars---*/
+
+::-webkit-scrollbar {
+    display: none;
+}
