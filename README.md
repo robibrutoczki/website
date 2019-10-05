@@ -5,6 +5,7 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 This is my portfolio website to present to prospective employers. The portfolio highlights three projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.
 
 ## Demo
+
 A live demo can be found [here](http://robbieb.co.uk "here").
 
 ![](https://github.com/robibrutoczki/website/blob/master/Assets/images/readmepic.gif)
@@ -12,47 +13,66 @@ A live demo can be found [here](http://robbieb.co.uk "here").
 
 
 ## UX
-My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist design. The greyscale color scheme was chosen to create a sleek and modern feel.
 
-For employers, I wanted to provide them with a brief overview of myself and my capabilities via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access.
+My goal in the design was to make it as easy as possible to access information on the site with an exciting design. The color scheme was chosen to create a colourful and easily readable design.
 
-## UX
-My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist design. The greyscale color scheme was chosen to create a sleek and modern feel.
+For employers, I wanted to provide them with an overview of myself and my capabilities via a user friendly design.
 
-For employers, I wanted to provide them with a brief overview of myself and my capabilities via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access.
+This webpage is my online CV .
+
+ In the 'Skills' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to a live demo. A link to my social profiles, my GitHub, and a downloadable CV were also provided for their ease of access.
+
 
 ### Technologies
+
 - HTML
 - CSS
-- Bootstrap
+- Bootstrap 4
 
 
 ### Features
-This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. The navbar also stays collapsed regardless of the screen size to promote a minimalist design.
+
+This site uses the scrollspy feature in Bootstrap . In the navbar it shows(green highlight on menu items) whitch section is on show as we scroll up and down on the page.
+
 ### Testing
-The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer.
 
-If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. If an employer or recruiter is interested in contacting me, they will have to fill out all fields in order for the form to go through.
+The page used so many features to show to employers and recruiters what can be achieved by me.  The intention is to show of my work(s). In the about me section, they can read a bit about me, send me a message and download my CV. They are able to see my showcased projects via the project cards in the "Skills" section. They can view the live version of my work by clicking on the Font Awesome icons. They are able to view my social media profiles via clicking on the icons in the contact area. They are also able to download my CV by either clicking on CV in the navbar or by clicking on the download arrow icon in the Contact section.
 
-All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'download' attribute. All links have been manually tested to ensure that they are pointing to the correct destination.
+If you try to submit the contact form it won't work, it will be functional in the near future.
 
-By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar.
+All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'Download CV'or CV in the navbar. All links have been manually tested to ensure that they are working perfectly.
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that background-attachment: fixed was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the background-attachment: scroll property value was added in a media query.
+By clicking on the links in the navbar, the link will take you to the section named on the link. The link will glow green even on click or when you get to that section by scroling down on the page, 
+
+This site was tested across multiple browsers on multiple mobile devices to ensure compatibility and responsiveness. During the testing phase, I realized 
+some device rendering the CSS in different ways. My Android phone aligned the project cards to the left. After many hours I started to test on other phones and tablets the cards were aligned perfectly . Except on my own.
+
+#### Conclusion : Test your pages with multiple dev tools and devices.   
+
 ### Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+This site is hosted using GitHub pages and my own website.   
+
+To run locally, you can clone this repository directly into your editor using git clone https://robibrutoczki.github.io/website/.
+
 ### Credits
+
 ##### Content
-All content in the "About Me/À Propos" and "Work/Travail" sections in this portfolio site were written by me.
+
+All content in the "About Me" sections were written by me. The content in "Features" section from Wikipedia.
+
 ##### Media
-All photos were taken from Pexels, a stock image library, with the exception of the photo of myself in the background of the 'about me/À Propos' section in the desktop view. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme.
-###Acknowledgements
-The scrollSpy delay JavaScript function was found through this tutorial here.
 
-The progress circles from the skills section are modeled after the following Stack Overflow example. They were significantly modified to fit the styling, sizing, and progress for each skill.
+All photos were taken from Pexels. 
 
-The media query for the collapsed navbar regardless of viewport width was taken from this site.
+### Acknowledgements
 
-This is for educational use.
+The scrollSpy function was found through a YouTube tutorial and in the documentation of Bootstrap 4.
+
+The Skills cards idea came from StudentExampleProjectGradeFive .
+Some of the text I used and edited also from StudentExampleProjectGradeFive . 
+
+I used almost everything what I have learned from the course.
+
+
+
