@@ -10,10 +10,11 @@ body{
 
 .callout-container {
     height: 110vh;
+    width:100vw; 
     
 
 
-    background: url('../images/computer.jpg') no-repeat bottom right fixed;
+    background: url('../images/computer.jpg') no-repeat  center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,10 +28,10 @@ body{
     position: relative;}
 
 .callout-container-b {
-    height: 200vh;
-    
+    height: 100vh;
+      width:100vw;
 
-    background: url('../images/apple.jpg') no-repeat bottom right fixed;
+    background: url('../images/apple.jpg') no-repeat  center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,9 +45,10 @@ body{
 
 .callout-container-c {
 
-    height: 110vh;
+    height: 100vh;
+    width:100vw;
 
-    background: url('../images/keyboard.jpg') no-repeat bottom right fixed;
+    background: url('../images/keyboard.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -202,7 +204,8 @@ a.CVlink:hover {
   background-color:transparent;
   color: #1ebba3;}
 
-.btn-a {margin: 10px;
+.btn-a {text-decoration: none;
+  margin: 10px;
   border:2px solid #1ebba3;
   border-radius: 22px;
   width: 50px;
@@ -326,8 +329,10 @@ color:#fff;}
     border-radius:5%;
     height: 20em;
     top: 10%;
-    width: 30%;
-    align-items:center;
+    
+    margin: 20% auto;
+    width: 20em;
+    
     z-index: 2;
     opacity: 0.8;
     transition: all .3s ease-in;
@@ -338,12 +343,15 @@ color:#fff;}
     opacity: 1;
 }
 
+.row{justify-content: center;}
 
 /*-----------MEDIA QUERIES----------*/
+@media (max-width: 668px){
+    .card {
+        width: 70%;height:50%;}
+        .callout-container-b{height: 140vh;}
+   }
 
-@media (max-width: 767.98px) {.card{width: 80%;height: 80%;}
-.callout-container{}
-}
 
 /*---Hidden scrollbars---*/
 
