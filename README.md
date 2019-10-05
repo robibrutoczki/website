@@ -7,7 +7,7 @@ This is my portfolio website to present to prospective employers. The portfolio 
 ## Demo
 A live demo can be found [here](http://robbieb.co.uk "here").
 
-![](https://github.com/robibrutoczki/website/blob/master/Assets/images/computer.jpg)
+![](https://github.com/robibrutoczki/website/blob/master/Assets/images/readmepic.gif)
 
 
 
