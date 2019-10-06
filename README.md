@@ -1,8 +1,8 @@
 ## Robert Brutoczki
 
-Stream One Project: User-Centric Frontend Development - Code Institute
+Project one: User-Centric Frontend Development - Code Institute
 
-This is my portfolio website to present to prospective employers. The portfolio highlights three projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.
+This is my portfolio website to present to possible employers. The portfolio highlights three projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.
 
 ## Demo
 
@@ -16,23 +16,48 @@ A live demo can be found [here](http://robbieb.co.uk "here").
 
 My goal in the design was to make it as easy as possible to access information on the site with an exciting design. The color scheme was chosen to create a colourful and easily readable design.
 
-For employers, I wanted to provide them with an overview of myself and my capabilities via a user friendly design.
+For employers, I wanted to provide them with an overview of myself and my capabilities via a user friendly and
+exciting design.
 
 This webpage is my online CV .
 
- In the 'Skills' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to a live demo. A link to my social profiles, my GitHub, and a downloadable CV were also provided for their ease of access.
+ I built this website according to this wireframe.[Link to WF](https://github.com/robibrutoczki/website/blob/master/wireframe.svg "Link to WF")
 
+I wanted to archive few thing over the project:
+- to make it visually appealing
+- easy navigation
+- easy to contact me
+- downloadable contents
+- links to project
 
+### Features
+I used almost everything what I have learned from the course.
+#####Existing Features
+######Navbar:
+This site uses the scrollspy feature in Bootstrap . In the navbar it shows(green highlight on menu items) whitch section is on show as we scroll up and down on the page.
+Added a link to download my CV.
+On small screen devices : collapse navbar,when opening and clicking on links it will close itself.
+######Landing 
+I used what i learned from the "whiskey" project.
+Made a parallax background.
+######About
+In here there is 3 columns (on small screens only 2 visible) ,added 2 links to be able the user to download my CV and leave me a message. The buttons are changing color on hover.
+######Skills
+There are 3 card showing my project. With links to live pages.
+They are see through cards ,become solid on hover.
+######Features
+To show what technologies I using.
+######Contacts
+Showing contacts and links to social sites. Links have Fontawesome Icons. Icons are changing color on hover.
+There is a Modal to let user to send me a message .(not live yet.)
+I added a up button to the page to go to "home".This will help for users to navigate better.
+######Features Left to Implement
+I would like to add more pages to show projects. Modal to work . 
 ### Technologies
-
+Used:
 - HTML
 - CSS
 - Bootstrap 4
-
-
-### Features
-
-This site uses the scrollspy feature in Bootstrap . In the navbar it shows(green highlight on menu items) whitch section is on show as we scroll up and down on the page.
 
 ### Testing
 
@@ -40,7 +65,7 @@ The page used so many features to show to employers and recruiters what can be a
 
 If you try to submit the contact form it won't work, it will be functional in the near future.
 
-All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'Download CV'or CV in the navbar. All links have been manually tested to ensure that they are working perfectly.
+All links will open in a new tab using 'target="_blank"' and the CV will download  on click using the 'Download CV'or CV in the navbar. All links have been manually tested to ensure that they are working perfectly.
 
 By clicking on the links in the navbar, the link will take you to the section named on the link. The link will glow green even on click or when you get to that section by scroling down on the page, 
 
@@ -51,7 +76,7 @@ some device rendering the CSS in different ways. My Android phone aligned the pr
 
 ### Deployment
 
-This site is hosted using GitHub pages and my own website.   
+This site is hosted using GitHub pages and my own website.[GitHub Live](https://robibrutoczki.github.io/website/ "GitHub Live") and [RobbieB](http://robbieb.co.uk/ "RobbieB")
 
 To run locally, you can clone this repository directly into your editor using git clone https://robibrutoczki.github.io/website/.
 
@@ -72,7 +97,7 @@ The scrollSpy function was found through a YouTube tutorial and in the documenta
 The Skills cards idea came from StudentExampleProjectGradeFive .
 Some of the text I used and edited also from StudentExampleProjectGradeFive . 
 
-I used almost everything what I have learned from the course.
+
 
 
 
