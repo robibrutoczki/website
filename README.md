@@ -32,26 +32,26 @@ I wanted to archive few thing over the project:
 
 ### Features
 I used almost everything what I have learned from the course.
-#####Existing Features
-######Navbar:
+**Existing Features**
+**Navbar:**
 This site uses the scrollspy feature in Bootstrap . In the navbar it shows(green highlight on menu items) whitch section is on show as we scroll up and down on the page.
 Added a link to download my CV.
 On small screen devices : collapse navbar,when opening and clicking on links it will close itself.
-######Landing 
+**Landing** 
 I used what i learned from the "whiskey" project.
 Made a parallax background.
-######About
+**About**
 In here there is 3 columns (on small screens only 2 visible) ,added 2 links to be able the user to download my CV and leave me a message. The buttons are changing color on hover.
-######Skills
+**Skills**
 There are 3 card showing my project. With links to live pages.
 They are see through cards ,become solid on hover.
-######Features
+**Features**
 To show what technologies I using.
-######Contacts
+**Contacts**
 Showing contacts and links to social sites. Links have Fontawesome Icons. Icons are changing color on hover.
 There is a Modal to let user to send me a message .(not live yet.)
 I added a up button to the page to go to "home".This will help for users to navigate better.
-######Features Left to Implement
+**Features Left to Implement**
 I would like to add more pages to show projects. Modal to work . 
 ### Technologies
 Used:
