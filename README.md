@@ -30,9 +30,11 @@ I wanted to archive few thing over the project:
 - downloadable contents
 - links to project
 
-### Features
+## Features
 I used almost everything what I have learned from the course.
-**Existing Features**
+
+ **Existing Features**
+
 **Navbar:**
 This site uses the scrollspy feature in Bootstrap . In the navbar it shows(green highlight on menu items) whitch section is on show as we scroll up and down on the page.
 Added a link to download my CV.
@@ -53,7 +55,7 @@ There is a Modal to let user to send me a message .(not live yet.)
 I added a up button to the page to go to "home".This will help for users to navigate better.
 **Features Left to Implement**
 I would like to add more pages to show projects. Modal to work . 
-### Technologies
+## Technologies
 Used:
 - HTML
 - CSS
@@ -74,13 +76,13 @@ some device rendering the CSS in different ways. My Android phone aligned the pr
 
 #### Conclusion : Test your pages with multiple dev tools and devices.   
 
-### Deployment
+## Deployment
 
 This site is hosted using GitHub pages and my own website.[GitHub Live](https://robibrutoczki.github.io/website/ "GitHub Live") and [RobbieB](http://robbieb.co.uk/ "RobbieB")
 
 To run locally, you can clone this repository directly into your editor using git clone https://robibrutoczki.github.io/website/.
 
-### Credits
+## Credits
 
 ##### Content
 
@@ -90,12 +92,13 @@ All content in the "About Me" sections were written by me. The content in "Featu
 
 All photos were taken from Pexels. 
 
-### Acknowledgements
+## Acknowledgements
 
 The scrollSpy function was found through a YouTube tutorial and in the documentation of Bootstrap 4.
 
 The Skills cards idea came from StudentExampleProjectGradeFive .
 Some of the text I used and edited also from StudentExampleProjectGradeFive . 
+
 
 
 
