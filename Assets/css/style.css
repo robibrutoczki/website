@@ -1,12 +1,20 @@
 body{
-   
+   background-color: #343a40;
     font-family: 'Titillium Web', sans-serif;}
 
 /* Containers */
 
 .container-wrapper--black {
-    background-color: black;
+    background-color: #343a40;
     color: white;}
+    .container-wrapper--white
+     {
+    background-color: #343a40;
+    color: white;}
+
+.container-footer{background-color: #343a40;
+}
+   
 /* callout containers Parallax background */    
 
 .callout-container {
@@ -15,7 +23,7 @@ body{
     
 
 
-    background: url('../images/computer.jpg') no-repeat  center fixed;
+    background: url('../images/laptop.jpg') no-repeat  center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,11 +36,14 @@ body{
 
     position: relative;}
 
+
+
+
 .callout-container-b {
     height: 100vh;
       width:100vw;
 
-    background: url('../images/apple.jpg') no-repeat  center fixed;
+    background: url('../images/CSS.jpg') no-repeat  center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -49,7 +60,7 @@ body{
     height: 100vh;
     width:100vw;
 
-    background: url('../images/keyboard.jpg') no-repeat center fixed;
+    background: url('../images/computer.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,14 +72,16 @@ body{
 
     position: relative;}
 
+
 /* Overlay to make background darker */
+
 .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);}
+    background-color: rgba(0, 0, 0, 0.6);}
 
 .content-container {
     padding-top: 75px;
@@ -79,7 +92,7 @@ body{
 .jumbotron {width: 100%;
     background-color: transparent;}
 
-.jumbotron h1 {
+.jumbotron  {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
@@ -163,7 +176,8 @@ a.CVlink:hover {
 
     color: #fff;}
 
-.fixed-bottom{border-color: transparent;}
+.fixed-bottom{
+    border-color: transparent;}
 
 .navbar-btn {
     border:2px solid #1ebba3;
@@ -189,11 +203,9 @@ a.CVlink:hover {
 .block-divider--orange {
     background-color: #f05f40;}
 
-.block-divider--white {
-    background-color: white;}
 
-.block-divider--short {
-    width: 35px;}
+
+
 
 /* Buttons */
 
@@ -298,6 +310,7 @@ a.CVlink:hover {
     color: #fff;}
 
 
+
 /*-- ICONS---*/
 
 .fab,.fas{
@@ -305,7 +318,7 @@ a.CVlink:hover {
     font-size:2em;
     background-color:transparent;
     color: white;}
-.fa-university,.fa-code-branch{color: #000;}
+
 .fa-bootstrap{
     padding-left: 10px;
     font-size:2em;
@@ -326,7 +339,7 @@ color:#fff;}
 
 .card{
     text-align: center;
-    background:#b5136c;
+    background:#282938;
     border-radius:5%;
     height: 20em;
     top: 10%;
@@ -345,6 +358,12 @@ color:#fff;}
 }
 
 .row{justify-content: center;}
+
+/*--------------Footer-------------*/
+
+.footer{padding-top: 20px;}
+
+
 
 /*-----------MEDIA QUERIES----------*/
 @media (max-width: 668px){
