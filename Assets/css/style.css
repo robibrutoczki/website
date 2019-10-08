@@ -194,7 +194,7 @@ a.CVlink:hover {
   background-color:transparent;
   }
 
-.btn-a:hover{
+ .btn-a:hover{
    background-color:transparent;
     border:2px solid #eb441e;
     border-radius: 22px;
@@ -206,9 +206,9 @@ a.CVlink:hover {
  .btn--red:active,
  .btn--red:focus,
  .btn--red:active:focus {
-  background-color:#fff;
-  border:2px solid #eb441e;
-  color: #eb441e;}
+  background-color:#eb441e;
+  border:2px solid #fff;
+  color: #fff;}
 
 /* Page Headers */
 
