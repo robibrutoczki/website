@@ -7,10 +7,8 @@ body{
 .container-wrapper--black {
     background-color: #343a40;
     color: white;}
-    .container-wrapper--white
-     {
-    background-color: #343a40;
-    color: white;}
+    
+
 
 .container-footer{background-color: #343a40;
 }
@@ -107,24 +105,6 @@ body{
     font-style: italic;
     color: #d0d0d0;}
 
-/* Block dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;}
-
-.block-divider--orange {
-    background-color: #f05f40;}
-
-.block-divider--white {
-    background-color: white;}
-
-.block-divider--short {
-    width: 35px;}
-
-
 /* Navbar */
 
 .navbar {
@@ -139,55 +119,43 @@ body{
     border: 0;
     text-transform: uppercase;}
 
-
-.navbar-default .navbar-collapse {
-    border-color: transparent;}
-
-.navbar-default .navbar-toggle {
-    border: 0;}
-
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;}
-
-
 .navbar .navbar-brand {
     font-weight: bold;
     color: white;}
 
 .navbar .navbar-brand:hover {
-    color: #1ebba3;}
+    color:#eb441e;}
 
 .navbar-default .navbar-nav a {
     font-weight: bold;}
 
 .navbar-dark .navbar-nav .nav-link.active,
 
-.navbar-dark .navbar-nav .nav-link:hover{color:#1ebba3;}
+.navbar-dark .navbar-nav .nav-link:hover{color:#eb441e;}
 
-a#link.nav-link{color:#1ebba3;}
+a#link.nav-link{color:#eb441e;}
 
-a.CVlink{text-decoration: none;color:#1ebba3;}
+a.CVlink{text-decoration: none;color:#eb441e;}
 
 a.CVlink:hover {
-    background-color:#1ebba3;
+    background-color:#eb441e;
 
     color: #fff;}
+
+
 
 .fixed-bottom{
     border-color: transparent;}
 
 .navbar-btn {
-    border:2px solid #1ebba3;
+    border:2px solid #eb441e;
     border-radius: 16px;
     width: 150px;
     background-color:transparent;
-    color: #1ebba3;}
+    color: #eb441e;}
 
 .navbar-btn:hover {
-    background-color:#1ebba3;
+    background-color:#f05f40;
     border:2px solid #fff;
     color: #fff;}
 
@@ -201,7 +169,7 @@ a.CVlink:hover {
     background-color: #444;}
 
 .block-divider--orange {
-    background-color: #f05f40;}
+    background-color:#eb441e;}
 
 
 
@@ -211,36 +179,36 @@ a.CVlink:hover {
 
 
 .btn {
-  border:2px solid #1ebba3;
+  border:2px solid #eb441e;
   border-radius: 22px;
   width: 150px;
   background-color:transparent;
-  color: #1ebba3;}
+  color: #eb441e;}
+  
 
-.btn-a {text-decoration: none;
+.btn-a {
   margin: 10px;
-  border:2px solid #1ebba3;
+  border:2px solid #eb441e;
   border-radius: 22px;
-  width: 50px;
+  width: auto;
   background-color:transparent;
-  color: #1ebba3;}
+  }
 
 .btn-a:hover{
-    background-color:#1ebba3;
-    border:2px solid #fff;
-    border-radius: 15px;
-    min-width: 50px;
-    font-weight: bold;
-    margin-top: 10px;
-    color:#fff;}
+   background-color:transparent;
+    border:2px solid #eb441e;
+    border-radius: 22px;
+   width: auto;
+   margin-top: 10px;
+    border-color:#fff;}
 
  .btn--red:hover,
  .btn--red:active,
  .btn--red:focus,
  .btn--red:active:focus {
   background-color:#fff;
-  border:2px solid #1ebba3;
-  color: #1ebba3;}
+  border:2px solid #eb441e;
+  color: #eb441e;}
 
 /* Page Headers */
 
@@ -258,12 +226,12 @@ a.CVlink:hover {
 
 /* Quotes */
 
-.quotes .page-header {
+.quotes .page-header {color: #fff;
     margin-bottom: 25px;}
 
 /* Features */
 
-.feature {
+.feature {color:#fff;
     text-align: center;
     margin-bottom: 40px;}
 
@@ -273,7 +241,7 @@ a.CVlink:hover {
     line-height: 45px;}
 
 .feature .btn-c:hover{
-    background-color:#1ebba3;
+    background-color:#eb441e;
     border:2px solid ;
     border-radius: 15px;
     min-width: 100px;
@@ -283,31 +251,24 @@ a.CVlink:hover {
 
 .feature .btn-c{
     background-color:transparent;
-    border:2px solid #1ebba3;
+    border:2px solid #eb441e;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #1ebba3;}
+    color:#eb441e;}
 
 
 .feature .btn:hover{
     background-color:transparent;
-    border:2px solid #1ebba3;
+    border:2px solid #eb441e;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color:#1ebba3;}
+    color:#eb441e;}
 
-.feature .btn{
-    background-color:transparent;
-    border:2px solid #fff;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #fff;}
+
 
 
 
@@ -325,10 +286,17 @@ a.CVlink:hover {
     background-color:transparent;
     color: white;}
 
-.fab:hover{color:#1ebba3;}
-.fas:hover{color:#1ebba3;}
+.fab:hover{color:#eb441e;}
+.fas:hover{color:#eb441e;}
+.fa-chevron-up{padding: 5px;
+    font-size:1em;
+    background-color:transparent;
+    color: #eb441e;}
+
+.fa-chevron-up:hover{color: #fff;}
 
     /*-----------Modal----------*/
+
 
 
 .modal-content{
@@ -348,7 +316,7 @@ color:#fff;}
     width: 20em;
     
     z-index: 2;
-    opacity: 0.8;
+    opacity: 0.6;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;}
@@ -371,7 +339,8 @@ color:#fff;}
         width: 70%;height:50%;}
         .callout-container-b{height: 140vh;}
    }
-
+@media (max-height:414px){.callout-container-b{height: 160vh;} .card {
+        width: 50%;height:30%;}}
 
 /*---Hidden scrollbars---*/
 
