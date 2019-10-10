@@ -135,7 +135,8 @@ body{
 
 a#link.nav-link{color:#eb441e;}
 
-a.CVlink{text-decoration: none;color:#eb441e;}
+a.CVlink{text-decoration: none;
+    color:#eb441e;}
 
 a.CVlink:hover {
     background-color:#eb441e;
@@ -178,29 +179,29 @@ a.CVlink:hover {
 /* Buttons */
 
 
+
 .btn {
   border:2px solid #eb441e;
   border-radius: 22px;
   width: 150px;
   background-color:transparent;
-  color: #eb441e;}
+  color: #eb441e;padding: 5px;}
   
 
-.btn-a {
+.CVlink{
   margin: 10px;
   border:2px solid #eb441e;
   border-radius: 22px;
-  width: auto;
+  width:150px;
   background-color:transparent;
+  padding: 5px 10px;
   }
 
- .btn-a:hover{
-   background-color:transparent;
-    border:2px solid #eb441e;
-    border-radius: 22px;
-   width: auto;
-   margin-top: 10px;
-    border-color:#fff;}
+.CVlink:hover{background-color:#eb441e;
+  border:2px solid #fff;
+  color: #fff;
+  padding:5px;}
+
 
  .btn--red:hover,
  .btn--red:active,
@@ -208,7 +209,8 @@ a.CVlink:hover {
  .btn--red:active:focus {
   background-color:#eb441e;
   border:2px solid #fff;
-  color: #fff;}
+  color: #fff;
+  padding:5px;}
 
 /* Page Headers */
 
@@ -240,35 +242,6 @@ a.CVlink:hover {
     font-size: 45px;
     line-height: 45px;}
 
-.feature .btn-c:hover{
-    background-color:#eb441e;
-    border:2px solid ;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color:#fff;}
-
-.feature .btn-c{
-    background-color:transparent;
-    border:2px solid #eb441e;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color:#eb441e;}
-
-
-.feature .btn:hover{
-    background-color:transparent;
-    border:2px solid #eb441e;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color:#eb441e;}
-
-
 
 
 
@@ -288,10 +261,16 @@ a.CVlink:hover {
 
 .fab:hover{color:#eb441e;}
 .fas:hover{color:#eb441e;}
-.fa-chevron-up{padding: 5px;
+
+.fa-chevron-up{padding:0 10px;
     font-size:1em;
     background-color:transparent;
-    color: #eb441e;}
+    color: #eb441e;
+    margin: 10px ;
+    border:2px solid #eb441e;
+    border-radius: 22px;
+    width:40px;
+    background-color:transparent;}
 
 .fa-chevron-up:hover{color: #fff;}
 
@@ -339,7 +318,8 @@ color:#fff;}
         width: 70%;height:50%;}
         .callout-container-b{height: 140vh;}
    }
-@media (max-height:414px){.callout-container-b{height: 160vh;} .card {
+@media (max-height:414px){.callout-container-b{height: 160vh;}
+ .card {
         width: 50%;height:30%;}}
 
 /*---Hidden scrollbars---*/

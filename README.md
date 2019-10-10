@@ -1,11 +1,15 @@
 
 ## Robert Brutoczki
 
+------
+
 Project one: User-Centric Frontend Development - Code Institute
 
-This is my portfolio website to present to possible employers. The portfolio highlights three projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.
+This is my portfolio website to present to possible employers. The portfolio highlights three projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.  
 
 ## Demo
+
+------
 
 A live demo can be found [here](http://robbieb.co.uk "here").
 
@@ -15,17 +19,20 @@ A live demo can be found [here](http://robbieb.co.uk "here").
 
 ## UX
 
-My goal in the design was to make it as easy as possible to access information on the site with an exciting design. The color scheme was chosen to create a colourful and easily readable design.
+------
 
-For employers, I wanted to provide them with an overview of myself and my capabilities via a user friendly and
-exciting design.
+My goal in the design was to make it as easy as possible to access information on the site with an exciting design to impress. The colour scheme was chosen to create a colourful and easily readable design.
 
-This webpage is my online CV .
+For employers, I wanted to provide them with an overview of myself and my capabilities via a user friendly and exciting design.
 
- I built this website according to this wireframe.[Link to WF](https://github.com/robibrutoczki/website/blob/master/wireframe.svg "Link to WF")
+ I built this website according to this wireframe.
+
+[!]: https://github.com/robibrutoczki/website/blob/master/wireframe.svg	"here"
 
 I wanted to archive few thing over the project:
+
 - to make it visually appealing
+- responsive
 - easy navigation
 - easy to contact me
 - downloadable contents
