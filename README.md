@@ -7,9 +7,45 @@ Project one: User-Centric Frontend Development - Code Institute
 
 This is my portfolio website to present to possible employers. The portfolio highlights three projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form.  
 
-[TOC]
+Table of contents:
 
-## Demo
+ *[Robert Brutoczki](#robert-brutoczki)* 
+
+  *[Demo](#demo)*
+
+  *[UX](#ux)*
+
+ *[Features](#features)* 
+
+*[Existing Features](#existing-features)*
+
+- ######   *[Navbar](#navbar)* 
+
+- ##### *[Landing](#landing)*
+
+- #####  *[About](#about)* 
+
+- ##### *[Projects](#skills)*
+
+- #####  *[Features](#features)* 
+
+- ##### *[Contacts](#contacts)*        
+
+###### *[Features Left to Implement](#features-left-to-implement)*
+
+ *[Technologies](#technologies)*
+
+ *[Testing](#testing)*
+
+ *[Deployment](#deployment)*
+
+ *[Credits](#credits)*
+
+ *[Content](#content)*
+
+ *[Media](#media)*
+
+ *[Acknowledgements](#acknowledgements)*
 
 ------
 
@@ -42,7 +78,7 @@ I used almost everything what I have learned from the course.
 
 ####  **Existing Features**
 
-##### **Navbar:**
+##### **Navbar**
 This site uses the scrollSpy feature in Bootstrap . In the navbar it shows(green highlight on menu items) which section is on show as we scroll up and down on the page.
 Added a link to download my CV.
 On small screen devices : collapse navbar,when opening and clicking on links it will close itself.
@@ -52,7 +88,7 @@ I used what i learned from the "whiskey" project.
 Made a parallax background.
 ##### **About**
 In here there is 3 columns (on small screens only 2 visible) ,added 2 links to be able the user to download my CV and leave me a message. The buttons are changing colour on hover.
-##### **Skills**
+##### **Projects**
 There are 3 card showing my project. With links to live pages.
 They are see through cards ,become solid on hover.
 ##### **Features**
